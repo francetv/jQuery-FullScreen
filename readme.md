@@ -13,11 +13,6 @@ Include jquery.fullscreen.js in your page along with version 1.7 of the jQuery l
 		<th>Meaning</th>
 	</tr>
     <tr>
-        <td>background</td>
-        <td>a color hash</td>
-        <td>This is the color that will be used for the background.</td>
-    </tr>
-    <tr>
         <td>callback</td>
         <td>a function</td>
         <td>The callback function will be called on a full screen change event. It has one argument - a boolean indicating whether we are in full screen or not.</td>
@@ -47,7 +42,6 @@ if($.support.fullscreen){
 		
 		// You can also pass a hash with properties:
 		// $('#content').fullScreen({
-		//	'background'	: '#111',
 		//	'callback'		: function(isFullScreen){
 		//		// ...
 		//		// Do some cleaning up here
